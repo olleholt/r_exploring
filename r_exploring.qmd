@@ -25,7 +25,7 @@ ggpairs(diamonds)
 
 ```{r}
 ggplot(data = diamonds, aes(x = carat , y = price))+
-  geom_point(aes(color = clarity))
+  geom_point(aes(color = clarity), shape = 6)
 ```
 
 ```{r}
