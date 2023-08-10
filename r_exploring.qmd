@@ -25,12 +25,12 @@ ggpairs(diamonds)
 
 ```{r}
 ggplot(data = diamonds, aes(x = carat , y = price))+
-  geom_point()
+  geom_point(aes(color = clarity))
 ```
 
 ```{r}
 ggplot(data = diamonds, aes(x = carat))+
-  geom_histogram()
+  geom_histogram(color = "blue", fill = "cyan")
 ```
 
 ```{r}
